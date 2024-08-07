@@ -1,0 +1,43 @@
+.one-box {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.one-anim {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  animation-name: square-run;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes square-run {
+  0% {
+    left: 0;
+    top: 0;
+    background-color: red;
+  }
+  25% {
+    left: 0;
+    top: 150px;
+    background-color: blue;
+  }
+  50% {
+    left: 150px;
+    top: 150px;
+    background-color: green;
+  }
+  75% {
+    left: 150px;
+    top: 0px;
+    background-color: yellow;
+  }
+  100% {
+    left: 0;
+    top: 0;
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */
